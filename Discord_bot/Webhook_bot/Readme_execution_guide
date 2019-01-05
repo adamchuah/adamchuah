@@ -1,0 +1,24 @@
+This is a demo using DZT shoptify monitor
+
+github : https://github.com/dzt/shopify-monitor
+Youtube tutorial : https://www.youtube.com/watch?v=rpO5wdudfpQ&feature=youtu.be
+
+Dependencies
+------------
+1. Node JS (npm command)
+2. Mongodb
+3. git
+4. homebrew ( brew )
+
+Steps:  1. Install NodeJS manually from website https://nodejs.org/en/
+	2. Install Mongodb by 
+	   brew install mongodb
+	3. mkdir shoptify-monitor-demo & cd inside
+        4. Git clone https://github.com/dzt/shopify-monitor
+	5. sudo npm install
+	6. mv config.example.json config.json
+	7. brew services start mongodb on WINDOW 1
+	8. node server on WINDOW 2
+	9. open up a web browser to further down configuration & monitoring
+
+
